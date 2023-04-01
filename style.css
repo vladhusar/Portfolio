@@ -102,3 +102,9 @@ body {
   padding-bottom: 20px;
   font-weight: 600;
 }
+
+.skills-inner {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
