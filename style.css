@@ -103,8 +103,99 @@ body {
   font-weight: 600;
 }
 
+.skills {
+  padding: 140px 0;
+}
+
 .skills-inner {
   display: flex;
   text-align: center;
   flex-direction: column;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-inner p {
+  padding-bottom: 75px;
+}
+
+.skills-name {
+  padding: 24px 0;
+  margin: 0 auto;
+  width: 80px;
+  color: #828282;
+  font-size: 14px;
+  height: 66px;
+}
+
+.portfolio {
+  padding: 140px 0;
+  background-color: #F6F6F6;
+}
+
+.portfolio-inner {
+  text-align: center;
+}
+
+.portfolio-inner img {
+  width: 936px;
+  height: 522px;
+  padding-bottom: 45px;
+}
+
+.portfolio-inner h1 {
+  padding-bottom: 45px;
+}
+
+.portfolio-inner p {
+  padding-bottom: 100px;
+  text-decoration-line: underline;
+}
+
+.portfolio-inner a {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-inner a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.8s linear;
+}
+
+.portfolio-inner a:hover.portfolio-inner a::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts {
+  padding: 140px 0;
+}
+
+.contacts-inner {
+  text-align: center;
+}
+
+.contacts-button {
+  font-weight: 700;
+  height: 42px;
+  font-size: 18px;
+  width: 180.49964904785156px;
+  margin-top: 43px;
+  margin-bottom: 56px;
+  background-color: #070707;
+  color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px
 }
